@@ -10,4 +10,4 @@ For more information or to apply you can contact:
 - Stephan Baum: stephan@adaltas.com
 
 TDP:
-https://www.adaltas.com/fr/2022/04/14/decouvrez-trunk-data-platform/
+https://www.trunkdataplatform.io/
