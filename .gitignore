@@ -1,0 +1,8 @@
+# spark lab solutions
+02_spark_recap/lab_resources/Lab1_Basics_correction.ipynb
+
+# spark folder
+02_spark_recap/lab_resources/spark
+
+# nix-shell instalation
+02_spark_recap/lab_resources/nix-packages.nix
