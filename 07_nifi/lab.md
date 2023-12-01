@@ -4,7 +4,7 @@
 
 Lets install NiFi using a container in order to have the environment set. The image is available on [dockerhub](https://hub.docker.com/r/apache/nifi).
 
-Create the container and mount a volume to the `/data` repository in the conatiner and to the lab directory of this module. **Do not mount it to a not empty folder on your host as you might lose your data in this folder afterwards.**
+Create the container and mount a volume to the `/data` repository in the conatiner and to an empty folder in your filesystem. **Do not mount it to a not empty folder on your host as you might lose your data in this folder afterwards.**
 
 If docker does not work install NiFi directly on your host using the official [NiFi documentation](https://nifi.apache.org/project-documentation.html).
 
