@@ -12,7 +12,7 @@ Once everything set, the UI in your browser should look like this:
 
 ![NiFi UI](./assets/nifi-ui.png)
 
-## Create ba Dataflow
+## Create a Dataflow
 
 NiFi works with drag and drop. To create a flow you need to:
 
