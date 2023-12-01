@@ -26,7 +26,7 @@ NiFi works with drag and drop. To create a flow you need to:
 
 Documentation can be read on the [official NiFi website](https://nifi.apache.org/project-documentation.html).
 
-## Exercice
+## Exercice 1
 
 1. Create a flow that takes a file from one folder, renames it and puts it back in the same folder.
 
@@ -37,3 +37,9 @@ Documentation can be read on the [official NiFi website](https://nifi.apache.org
 4. for those having AWS it puts the file in an S3 bucket as well as in the local folder.
 
 5. Export the final template.
+
+## Exercice 2
+
+1. Create a NiFi Registry container. The Image can be taken from [dockerhub](https://hub.docker.com/r/apache/nifi-registry).
+
+2. Create a bucket, connect it to NiFi and put the last flow in it using the [NiFi userguide](https://nifi.apache.org/docs/nifi-registry-docs/html/user-guide.html)

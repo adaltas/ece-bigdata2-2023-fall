@@ -99,8 +99,19 @@ NiFi cluster consists of several NiFi applications running each in a JVM managed
 
 Details can be read in the [NiFi official documentation](https://nifi.apache.org/project-documentation.html).
 
+## NiFi Registry
 
-### FBP Libraries and frameworks
+NiFi Registry is a subproject of NiFi. The application is seperate and it is used as a central location to store and manage resources for NiFi.
+
+The registry has the following features:
+
+- Implementation of a Flow Registry for storing and managing versioned flows.
+
+- Integration with NiFi to allow storing, retrieving, and upgrading versioned flows from a Flow Registry.
+
+- Administration of the Registry for defining users, groups, and policies.
+
+## FBP Libraries and frameworks
 
 - Graphical FBP network editors:
     - DrawFBP
@@ -138,5 +149,6 @@ Details can be read in the [NiFi official documentation](https://nifi.apache.org
 - [Cloudera: Apache NiFi](https://www.cloudera.com/products/open-source/apache-hadoop/apache-nifi.html)
 - [Medium: What the Hell Is Flow-Based Programming?](https://medium.com/bitspark/what-the-hell-is-flow-based-programming-d9e88a6a7265)
 - [Nifi official Documentation](https://nifi.apache.org/project-documentation.html)
+- [NiFi Registry official documentation](https://nifi.apache.org/registry.html)
 - [The state of Flow-based Programming](https://blog.kodigy.com/post/state-of-flow-based-programming/)
 - [Wikipedia: Flow-based programming](https://en.wikipedia.org/wiki/Flow-based_programming)
