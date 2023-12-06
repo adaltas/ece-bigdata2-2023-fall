@@ -28,15 +28,13 @@ Documentation can be read on the [official NiFi website](https://nifi.apache.org
 
 ## Exercice 1
 
-1. Create a flow that takes a file from one folder, renames it and puts it back in the same folder.
+1. Create a flow that takes a file from one folder, renames it and puts it back in a different folder.
 
 2. The same flow but it only changes the extension of the file.
 
-3. The same flow but puts the file in a different folder.
+3. for those having AWS it puts the file in an S3 bucket as well as in the local folder.
 
-4. for those having AWS it puts the file in an S3 bucket as well as in the local folder.
-
-5. Export the final template.
+4. Export the final template.
 
 ## Exercice 2
 
